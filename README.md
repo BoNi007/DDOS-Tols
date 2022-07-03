@@ -8,3 +8,4 @@ chmod +x ./udp
 
 makanya Tod punya server itu duit donate nya buat beli anti ddos / buat server itu pake modal jangan mau nya free doang sama duit donet nya doang
 
+kalian pada abuse kontol jadi w delet
